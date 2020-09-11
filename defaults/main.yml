@@ -14,4 +14,4 @@ ossec_url: "https://www.atomicorp.com/channels/atomic/centos/{{ ansible_distribu
 ossec_download_url: "{{ ossec_url }}/{{ ossec_filename }}"
 
 ossec_server_disable_gpgkey: False
-ossec_agent_client_pass:
+ossec_agent_client_pass: ""
